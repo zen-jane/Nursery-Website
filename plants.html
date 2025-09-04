@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Nursery - Plants</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <i class="fas fa-seedling"></i>
+        <span>GreenNursery</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="plants.html" class="nav-link">Plants</a></li>
+        <li><a href="seeds.html" class="nav-link">Seeds</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--  Plants Section -->
+  <section class="plants-section">
+    <div class="container">
+      <h2 class="section-title">OUR PLANTS COLLECTION</h2>
+      <p class="section-subtitle">Browse our premium plants and bring nature closer to your home & office</p>
+
+      <!-- Filter Tabs -->
+      <div class="plant-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="indoor">Indoor</button>
+        <button class="filter-btn" data-filter="outdoor">Outdoor</button>
+        <button class="filter-btn" data-filter="succulent">Succulents</button>
+        <button class="filter-btn" data-filter="flower">Flowers</button>
+        <button class="filter-btn" data-filter="tree">Trees</button>
+      </div>
+
+      <!-- Plant Grid -->
+      <div class="plants-grid">
+        <!-- Indoor Plants -->
+        <div class="plant-card indoor">
+          <div class="plant-img"><img
+              src="https://plantandpot.nz/wp-content/uploads/2016/12/Monstera-large-grade-25cm.jpg" alt="Monstera">
+          </div>
+          <div class="plant-info">
+            <h3>Monstera</h3>
+            <p>Indoor Plant</p>
+          </div>
+        </div>
+        <div class="plant-card indoor">
+          <div class="plant-img"><img
+              src="https://www.wildcraftia.com/wp-content/uploads/2024/02/snake-plant-g31757e5de_1280.jpg"
+              alt="Snake Plant"></div>
+          <div class="plant-info">
+            <h3>Snake Plant</h3>
+            <p>Indoor Plant</p>
+          </div>
+        </div>
+        <div class="plant-card indoor">
+          <div class="plant-img"><img
+              src="https://www.mydomaine.com/thmb/N3StDx3PyGbF0Pwafv-P9-qiNZU=/900x0/filters:no_upscale():strip_icc()/1566417254329_20190821-1566417255317-b9314f1d9f7a4668a466c5ffb1913a8f.jpg"
+              alt="Peace Lily"></div>
+          <div class="plant-info">
+            <h3>Peace Lily</h3>
+            <p>Indoor Plant</p>
+          </div>
+        </div>
+        <div class="plant-card indoor">
+          <div class="plant-img"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP63St3xQ3VrYTTeT-x0YiUX_lXHjU9NORulKiaTM0KgxS2-qlYDxzSmQ6R7IYNoY_rTM&usqp=CAU"
+              alt="Lucky Bamboo"></div>
+          <div class="plant-info">
+            <h3>Lucky Bamboo</h3>
+            <p>Indoor Plant</p>
+          </div>
+        </div>
+
+        <!-- Outdoor Plants -->
+        <div class="plant-card outdoor">
+          <div class="plant-img"><img src="https://m.media-amazon.com/images/I/61vHbwo1ZHL.jpg" alt="Palm Tree"></div>
+          <div class="plant-info">
+            <h3>Palm Tree</h3>
+            <p>Outdoor Plant</p>
+          </div>
+        </div>
+        <div class="plant-card outdoor">
+          <div class="plant-img"><img src="https://myplantshop.me/cdn/shop/files/Bougainvilla01.jpg?v=1730724744"
+              alt="Bougainvillea"></div>
+          <div class="plant-info">
+            <h3>Bougainvillea</h3>
+            <p>Outdoor Plant</p>
+          </div>
+        </div>
+        <div class="plant-card outdoor">
+          <div class="plant-img"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ6-iAmBf_3faP5-U6akynwoPpScp6iOrEW1YyJtAysj5Jy8FSuE-W4tKEQrZMZ30uZeo&usqp=CAU"
+              alt="Hibiscus"></div>
+          <div class="plant-info">
+            <h3>Hibiscus</h3>
+            <p>Outdoor Plant</p>
+          </div>
+        </div>
+        <div class="plant-card outdoor">
+          <div class="plant-img"><img src="https://m.media-amazon.com/images/I/61ddATL-GeL._AC_SL1300_.jpg"
+              alt="Jasmine"></div>
+          <div class="plant-info">
+            <h3>Jasmine</h3>
+            <p>Outdoor Plant</p>
+          </div>
+        </div>
+
+        <!-- Succulents -->
+        <div class="plant-card succulent">
+          <div class="plant-img"><img
+              src="https://5.imimg.com/data5/SELLER/Default/2024/6/425375528/DS/IE/KI/117123047/aloe-vera-plant-500x500.jpg"
+              alt="Aloe Vera"></div>
+          <div class="plant-info">
+            <h3>Aloe Vera</h3>
+            <p>Succulent</p>
+          </div>
+        </div>
+        <div class="plant-card succulent">
+          <div class="plant-img"><img
+              src="https://plantorbit.com/cdn/shop/files/w-Photoroom_41.jpg?v=1754588381&width=533" alt="Cactus"></div>
+          <div class="plant-info">
+            <h3>Cactus</h3>
+            <p>Succulent</p>
+          </div>
+        </div>
+        <div class="plant-card succulent">
+          <div class="plant-img"><img src="https://plantorbit.com/cdn/shop/files/w-Photoroom_27.jpg?v=1754241227"
+              alt="Jade Plant"></div>
+          <div class="plant-info">
+            <h3>Jade Plant</h3>
+            <p>Succulent</p>
+          </div>
+        </div>
+        <div class="plant-card succulent">
+          <div class="plant-img"><img
+              src="https://harvestandgreen.co.uk/cdn/shop/files/EcheveriaSucculentP.jpg?v=1713973844" alt="Echeveria">
+          </div>
+          <div class="plant-info">
+            <h3>Echeveria</h3>
+            <p>Succulent</p>
+          </div>
+        </div>
+
+        <!-- Flowers -->
+        <div class="plant-card flower">
+          <div class="plant-img"><img
+              src="https://www.jiomart.com/images/product/original/rvibirnytu/cloud-farm-real-live-dark-red-rose-live-plant-hybrid-for-balcony-terrace-outdoor-gardening-cf_2064-product-images-orvibirnytu-p603649580-0-202308050834.jpg?im=Resize=(1000,1000)"
+              alt="Rose"></div>
+          <div class="plant-info">
+            <h3>Rose</h3>
+            <p>Flower</p>
+          </div>
+        </div>
+        <div class="plant-card flower">
+          <div class="plant-img"><img
+              src="https://assets.eflorist.com/site/00004321/assets/products/EZM_/sku8861837.jpg?impolicy=hero"
+              alt="Tulip"></div>
+          <div class="plant-info">
+            <h3>Tulip</h3>
+            <p>Flower</p>
+          </div>
+        </div>
+        <div class="plant-card flower">
+          <div class="plant-img"><img src="https://greenshipgardenus.com/wp-content/uploads/2025/02/unnamed-133.png"
+              alt="Sunflower"></div>
+          <div class="plant-info">
+            <h3>Sunflower</h3>
+            <p>Flower</p>
+          </div>
+        </div>
+        <div class="plant-card flower">
+          <div class="plant-img"><img
+              src="https://cdn2.1800flowers.com/wcsstore/Flowers/images/catalog/18436punx.jpg?height=755&width=690?auto=webp"
+              alt="Orchid"></div>
+          <div class="plant-info">
+            <h3>Orchid</h3>
+            <p>Flower</p>
+          </div>
+        </div>
+
+        <!-- Trees -->
+        <div class="plant-card tree">
+          <div class="plant-img"><img src="https://myplantshop.me/cdn/shop/files/ficus_benjamina_01.jpg?v=1730720407"
+              alt="Ficus Tree"></div>
+          <div class="plant-info">
+            <h3>Ficus Tree</h3>
+            <p>Tree</p>
+          </div>
+        </div>
+        <div class="plant-card tree">
+          <div class="plant-img"><img src="https://i.pinimg.com/564x/5a/65/7c/5a657cd7cd10946f71c3964bc760acd7.jpg"
+              alt="Mango Tree"></div>
+          <div class="plant-info">
+            <h3>Mango Tree</h3>
+            <p>Tree</p>
+          </div>
+        </div>
+        <div class="plant-card tree">
+          <div class="plant-img"><img
+              src="https://i.etsystatic.com/51111640/r/il/012d20/5860222692/il_fullxfull.5860222692_gfd8.jpg"
+              alt="Neem Tree"></div>
+          <div class="plant-info">
+            <h3>Neem Tree</h3>
+            <p>Tree</p>
+          </div>
+        </div>
+        <div class="plant-card tree">
+          <div class="plant-img"><img src="https://plantsguru.com/cdn/shop/files/pine-tree-chir-ka-ped.jpg?v=1737400471"
+              alt="Pine Tree"></div>
+          <div class="plant-info">
+            <h3>Pine Tree</h3>
+            <p>Tree</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🌱 Modal Popup (Hidden by Default) -->
+  <div id="plantModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <img id="modalImage" src="" alt="Plant">
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <section class="plants-end">
+    <!-- Newsletter -->
+    <div class="plants-newsletter">
+      <h2>STAY CONNECTED WITH US 🌿</h2>
+      <p>Subscribe for gardening tips & latest plant arrivals</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <!-- Mini Stats -->
+    <div class="plants-stats">
+      <div class="stat">
+        <h3>1000+</h3>
+        <p>Happy Customers</p>
+      </div>
+      <div class="stat">
+        <h3>500+</h3>
+        <p>Plants Sold</p>
+      </div>
+      <div class="stat">
+        <h3>5</h3>
+        <p>Locations</p>
+      </div>
+    </div>
+
+    <!-- Call-to-Action -->
+    <div class="plants-cta">
+      <a href="contact.html" class="cta-button">Book Your Consultation 🌿</a>
+    </div>
+
+    <!-- Mini Tips Carousel -->
+    <div class="plants-tips">
+      <div class="tip-card">Water succulents sparingly 🌵</div>
+      <div class="tip-card">Place indoor plants near sunlight ☀️</div>
+      <div class="tip-card">Prune regularly for healthy growth ✂️</div>
+    </div>
+  </section>
+
+
+  <script>
+    // Filter functionality
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    const plantCards = document.querySelectorAll(".plant-card");
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        filterBtns.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        const filter = btn.getAttribute("data-filter");
+        plantCards.forEach(card => {
+          if (filter === "all" || card.classList.contains(filter)) {
+            card.style.display = "block";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      });
+    });
+
+    // Modal functionality
+    const modal = document.getElementById("plantModal");
+    const modalTitle = document.getElementById("modalTitle");
+    const modalImage = document.getElementById("modalImage");
+    const modalDesc = document.getElementById("modalDesc");
+    const closeBtn = document.querySelector(".close-btn");
+
+    document.querySelectorAll(".plant-btn").forEach((btn, index) => {
+      btn.addEventListener("click", () => {
+        const card = btn.closest(".plant-card");
+        modalTitle.innerText = card.querySelector("h3").innerText;
+        modalImage.src = card.querySelector("img").src;
+        modalDesc.innerText = card.querySelector("p").innerText + " - High-quality, fresh, and hand-picked.";
+        modal.style.display = "block";
+      });
+    });
+
+    closeBtn.onclick = () => modal.style.display = "none";
+    window.onclick = (e) => { if (e.target === modal) modal.style.display = "none"; }
+  </script>
+
+</body>
+
+</html>
